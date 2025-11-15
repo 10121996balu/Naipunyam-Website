@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naipunyam Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .double-line {
+            border-top: 4px double #000;
+            margin-top: 30px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body class="m-5 p-4">
+
+    <div class="double-line">
+        <button type="button" class="btn btn-danger btn-lg">Personl Information</button>
+    </div><br><br>
+    <div class="naipunyam">
+
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-4">
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" class="form-control" placeholder="Date of Birth" aria-label="First name">
+            </div>
+            <div class="col-4">
+                <label for="aadhar">Aadhar Number</label><br>
+                <input type="text" class="form-control" placeholder="Aadhar Number" aria-label="aadhar">
+            </div>
+            <div class="col-4">
+                <label for="aadhar">Full Name</label><br>
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="full name">
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col">
+                <label for="fathername">Father Name</label><br>
+                <input type="text" class="form-control" placeholder="Fathename" aria-label="Fathername">
+            </div>
+            <div class="col">
+                <label for="age">Age</label><br>
+                <input type="text" class="form-control" placeholder="Age" aria-label="Age">
+            </div>
+            <div class="col">
+                <label for="gender">Gender</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+                    <option selected>Select your Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Femal</option>
+                    <option value="3">Others</option>
+                </select>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-4">
+                <label for="maritalstatus">Marital Status</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+                    <option selected>Select your marital status</option>
+                    <option value="1">Married</option>
+                    <option value="2">Unmarried</option>
+
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="religion">Religion</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+                    <option selected>Select your Religion</option>
+                    <option value="1">Hindu</option>
+                    <option value="2">Muslim</option>
+                    <option value="3">christian</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="category">Category</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+                    <option selected>Select your Category</option>
+                    <option value="1">OC</option>
+                    <option value="2">OBC</option>
+                    <option value="3">SC&ST</option>
+                </select>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-4">
+                <label for="resident">Are you a Resident of AP</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+                    <option selected></option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="disability">Disability</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+                    <option selected></option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class=" w-25"><br>
+                    <label for="upload">Upload Profile Photo</label>
+                    <input type="file" class="form-control" id="inputGroupFile02">
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- contact information -->
+
+        <div class="double-line">
+            <button type="button" class="btn btn-danger btn-lg">Contact Information</button>
+        </div><br><br>
+
+        <div class="row">
+            <div class="col-4">
+                <label for="email">Email Address</label><br>
+                <input type="email" class="form-control" placeholder="Enter your Email" aria-label="email">
+            </div>
+            <div class="col-4">
+                <label for="number">Mobile Number</label><br>
+                <input type="tel" class="form-control" placeholder="Enter your Mobile Number"
+                    aria-label="mobile number">
+            </div>
+            <div class="col-4">
+                <label for="number">Alternate Mobile Number</label><br>
+                <input type="tel" class="form-control" placeholder="Enter your Alternate Mobile Number"
+                    aria-label="mobile number">
+            </div>
+        </div>
+
+        <!-- login credintals -->
+
+        <div class="double-line">
+            <button type="button" class="btn btn-danger btn-lg">Login Credintals</button>
+        </div><br><br>
+
+        <div class="row">
+            <div class="col-4">
+                <label for="username">Username</label><br>
+                <input type="text" class="form-control" placeholder="Enter your Username" aria-label="username">
+            </div>
+            <div class="col-4">
+                <label for="password">Password</label><br>
+                <input type="password" class="form-control" placeholder="Enter your Password" aria-label="password">
+            </div>
+            <div class="col-4">
+                <label for="password">Re-Enter Password</label><br>
+                <input type="password" class="form-control" placeholder="Re-Enter your Password" aria-label="password">
+            </div>
+        </div>
+
+
+        <!-- Communication Address -->
+
+
+        <div class="double-line">
+            <button type="button" class="btn btn-danger btn-lg">Communication Address</button>
+        </div><br><br>
+
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-4">
+                <label for="state">State</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+                    <option selected>Select your State</option>
+                    <option value="1">Andhra Pradesh</option>
+                    <option value="2">Telangana</option>
+                    <option value="3">Karnataka</option>
+                    <option value="4">Tamilnadu</option>
+                    <option value="5">Kerala</option>
+                    <option value="6">Arunachala Pradesh</option>
+
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="district">District</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+
+                    <option value="Select your District">Select your District</option>
+                    <option value="Prakasam ">Prakasam</option>
+                    <option value="Nellore">Nellore</option>
+                    <option value="Chittoor">Chittor</option>
+                    <option value="Kadapa">Kadapa</option>
+                    <option value="Ananthapur">Ananthapur</option>
+                    <option value="Srikakulam">Srikakulam</option>
+                    <option value="Vizianagaram">Vizianagaram</option>
+                    <option value="Visakhapatnam">Visakhapatnam</option>
+                    <option value="East Godavari">East Godavari</option>
+                    <option value="West Godavari">West Godavari</option>
+                    <option value="Krishna">Krishna</option>
+                    <option value="Guntur">Guntur</option>
+                    <option value="Palnadu">Palnadu</option>
+                    <option value="Prakasam">Prakasam</option>
+                    <option value="Nandyal">Nandyal</option>
+                    <option value="Kurnool">Kurnool</option>
+                    <option value="Bapatla ">Bapatla</option>
+                    <option value="Anakapalli">Anakapalli</option>
+                    <option value="Alluri sitharama Raju">Alluri sitharama Raju</option>
+                    <option value="Parvathipuram Manyam">Parvathipuram Manyam</option>
+                    <option value="Konaseema">Konaseema</option>
+                    <option value="NTR(Namdigama) ">NTR(Nandigama)</option>
+                    <option value="Tirupati">Tirupati</option>
+                    <option value="Nandyal ">Nandyal</option>
+                    <option value="Sri sathya sai ">Sri satya sai</option>
+                    <option value="Eluru">Eluru</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="mandals">Mandalam</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+                    <option selected>Select your Mandalam</option>
+                    <option value="1">Vetapalem</option>
+                    <option value="2">Pandilapalli</option>
+                    <option value="3">Jandrapeta</option>
+                    <option value="4">Kothapeta</option>
+                </select>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-4">
+                <label for="parliment">Parliment Constituency</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+                    <option selected></option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="assembly">Assembly Constituency</label><br>
+                <select class="form-select form-select-sm " aria-label=".form-select-sm example" style="height: 38px;">
+                    <option selected></option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="housenumber">House Number</label><br>
+                <input type="text" class="form-control" placeholder="Enter your housenumber" aria-label="housenumber">
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-4">
+                <label for="housenumber">Ward Number</label><br>
+                <input type="text" class="form-control" placeholder="Enter your wardnumber" aria-label="wardnumber">
+            </div>
+            <div class="col-4">
+                <label for="housenumber">Street</label><br>
+                <input type="text" class="form-control" placeholder="Enter your street" aria-label="street">
+            </div>
+            <div class="col-4">
+                <label for="housenumber">City</label><br>
+                <input type="text" class="form-control" placeholder="Enter your city" aria-label="city">
+            </div>
+
+        </div>
+
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-4">
+                <label for="pincode">Pincode</label><br>
+                <input type="text" class="form-control" placeholder="Enter your pincode" aria-label="pincode">
+            </div>
+        </div><br><br><br>
+
+
+        <button type="button" class="btn btn-primary" onClick="alert('This information is submitted Successfully')">Submit</button>
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
